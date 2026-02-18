@@ -20,7 +20,7 @@ public class Main {
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         double saldoActual;
         saldoActual = cuenta1.estado();
-        System.out.println("El saldo actual es "+ saldoActual );
+        System.out.println("El saldo actual es: "+ saldoActual );
 
         try {
             cuenta1.retirar(2300);
