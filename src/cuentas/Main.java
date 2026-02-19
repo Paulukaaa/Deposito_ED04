@@ -1,7 +1,19 @@
 package cuentas;
-
+/**
+ * Clase principal de la aplicación.
+ */
 public class Main {
 
+    /**
+    * Constructor por defecto.
+    */
+    public Main() {
+    }
+    
+/**
+ * Método de entrada del programa.
+ * @param args argumentos
+ */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
